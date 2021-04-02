@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tableau</title>
     <style>
+        .center{
+            text-align: center;
+        }
         table,th,td {
             border-collapse:collapse;border: 1px solid black;
         }
@@ -13,7 +16,7 @@
 </head>
 <body>
     <!-- je fais mon 1er tableau -->
-    <table style="border-collapse:collapse;border: 1px solid black;">
+    <table>
         <caption>Mon compte BNP</caption>
         <thead>
             <tr>
@@ -25,13 +28,13 @@
         </thead>
         <tbody>
             <tr>
-                <td>01/05/2016</td>
+                <td rowspan="2">01/05/2016</td>
                 <td>Paye</td>
                 <td>1500</td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>01/05/2016</td>
+                
                 <td>Course de la semaine</td>
                 <td>0</td>
                 <td>152,30</td>
@@ -43,12 +46,12 @@
                 <td>32,40</td>
             </tr>
             <tr>
-                <td>05/05/2016</td>
+                <td rowspan="2">05/05/2016</td>
                 <td>Loyer</td>
                 <td>0</td>
                 <td>700</td>
             <tr>
-                <td>05/05/2016</td>
+                
                 <td>internet</td>
                 <td>0</td>
                 <td>39,90</td>
@@ -56,8 +59,8 @@
             </tbody>
             <tfoot>
             <tr>
-                <td colspan="2" style="text-align: center">Solde</td>
-                <td colspan="2">575,40</td>
+                <td class="center"colspan="2">Solde</td>
+                <td class="center"colspan="2">575,40</td>
             </tr>
             </tfoot>
         
